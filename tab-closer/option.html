@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Options</title>
+    <script src="option.js"></script>
+  </head>
+  <body>
+    <label for="delayTime">Delay time (in seconds):</label>
+    <input type="number" id="delayTime" min="1" step="1" />
+    <br /><br />
+    <label for="keywordBlacklist">Keyword Blacklist (one per line):</label>
+    <br />
+    <textarea id="keywordBlacklist" rows="10" cols="50"></textarea>
+    <br /><br />
+    <label for="enableToggle">Enable extension:</label>
+    <input type="checkbox" id="enableToggle" />
+    <br /><br />
+    <button id="saveButton">Save All</button>
+    <br /><br />
+    <p id="saveMessage"></p>
+  </body>
+</html>

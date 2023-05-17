@@ -1,0 +1,14 @@
+{
+	"name": "Tab Closer",
+	"description": "Automatically close unwanted tabs using custom keywords and a user-defined timer. ",
+	"version": "1.0",
+	"manifest_version": 3,
+	"options_page": "option.html",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": [
+		"tabs",
+		"storage"
+	]
+}
